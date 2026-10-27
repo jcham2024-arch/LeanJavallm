@@ -43,3 +43,4 @@ Master entrypoint for downstream agentic retrieval and human developers. Follow 
 - [[docs/agent/TaskContractArchitecture|AgentForge TaskContract & Execution Governance Architecture]] — Immutable contract boundaries, Realpath jail, and TypeScript virtual thread bridge.
 - [[docs/ui/UiDecoupling|Presentation Abstraction via UiBridge]] — Event-driven observer interface for JavaFX/CLI.
 - [[docs/ui/AgenticWorkbenchRoadmap|Enterprise Agentic Workbench Module & Roadmap]] — Standalone TypeScript UI specialized from Perchance layout with AgentForge links.
+- [[docs/ui/AgenticWorkbench|Enterprise Agentic LLM Workbench Architecture]] — Component hierarchy, 4-role perspective deck, and local-first snapshot engine.

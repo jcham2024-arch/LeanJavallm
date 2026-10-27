@@ -84,6 +84,16 @@ export const Header: React.FC<HeaderProps> = ({
         >
           Live Simulators
         </button>
+        <button
+          onClick={() => onSelectView('workbench')}
+          className={`hover:text-slate-100 transition-colors whitespace-nowrap shrink-0 text-left cursor-pointer ${
+            currentView === 'workbench'
+              ? 'text-indigo-400 font-semibold'
+              : 'text-slate-400'
+          }`}
+        >
+          Agentic Workbench
+        </button>
       </nav>
 
       {/* Zone 3: 1 primary action */}

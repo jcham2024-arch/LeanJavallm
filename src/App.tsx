@@ -7,6 +7,7 @@ import { PojoInspectorView } from './components/PojoInspectorView';
 import { ObsidianWikiView } from './components/ObsidianWikiView';
 import { SimulatorView } from './components/SimulatorView';
 import { AiConsultantModal } from './components/AiConsultantModal';
+import { AgenticWorkbenchView } from './workbench/AgenticWorkbenchView';
 
 export default function App() {
   const [currentView, setCurrentView] = useState<ViewMode>('roadmap');
@@ -63,6 +64,7 @@ export default function App() {
         )}
 
         {currentView === 'simulator' && <SimulatorView />}
+        {currentView === 'workbench' && <AgenticWorkbenchView />}
       </main>
 
       {/* Quiet, anti-slop footer */}

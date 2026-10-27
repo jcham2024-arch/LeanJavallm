@@ -3,7 +3,8 @@ export type ViewMode =
   | 'architecture' 
   | 'pojos' 
   | 'wiki' 
-  | 'simulator';
+  | 'simulator'
+  | 'workbench';
 
 export interface MilestoneStep {
   step: number;
