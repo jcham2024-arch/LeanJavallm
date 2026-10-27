@@ -69,3 +69,14 @@ Visit `http://localhost:3000` to explore:
 - Interactive Obsidian Knowledge Graph with clickable [[WikiLinks]]
 - Live Simulators (ReAct cognitive loop, SecureSecret memory wipe, ContextCompactor, EnvironmentSanitizer)
 - AI Architectural Consultant (Search Grounding via `gemini-3.8-flash` & High Thinking via `gemini-4-argon`)
+
+---
+
+## 🖥️ Modular Standalone UI: Enterprise Agentic LLM Workbench
+
+Located at `modules/ui-agentic-workbench/` (or `src/workbench/`), this isolated TypeScript module specializes the layout and simplicity of Perchance-style character chat systems into an enterprise agentic workbench:
+- **Built-in Gemini Platform Architect**: The default platform assistant ("Chloe" equivalent) powered by Gemini with search grounding and reasoning.
+- **Specialized AgentForge Subagents**: Multi-agent task execution governed by `TaskContract` objects and progressive disclosure Rule DAGs (`AGENTS.md`).
+- **4-Stream Perspective Deck**: `🤖 Active Agent`, `👤 Operator`, `⚙️ System Kernel`, and `📁 Workspace Link` (replaces image generation with file/folder tree binding).
+- **Zero-Dependency Java Link**: Real-time communication via SSE and RFC 8259 JSON serialization without external libraries.
+- **Read Full Specification**: See [[docs/ui/AgenticWorkbenchRoadmap.md|Agentic Workbench Module & Roadmap]].

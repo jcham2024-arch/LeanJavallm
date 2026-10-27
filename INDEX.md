@@ -41,3 +41,4 @@ Master entrypoint for downstream agentic retrieval and human developers. Follow 
 ## 6. Autonomous ReAct & Presentation
 - [[docs/agent/ReActOrchestration|Autonomous ReAct Engine & State Context]] — Thought-Action-Observation state machine.
 - [[docs/ui/UiDecoupling|Presentation Abstraction via UiBridge]] — Event-driven observer interface for JavaFX/CLI.
+- [[docs/ui/AgenticWorkbenchRoadmap|Enterprise Agentic Workbench Module & Roadmap]] — Standalone TypeScript UI specialized from Perchance layout with AgentForge links.
